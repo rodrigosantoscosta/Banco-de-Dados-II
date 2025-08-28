@@ -1,0 +1,16 @@
+28/08/2025 
+- Aula passada foi a criação de um banco
+- Como alterar um Banco de Dados
+    - Adicionando arquivos com ADD FILE
+    - Remover arquivos
+    - Alterar tamanho
+    - 
+- Apresentação da especificação projeto
+    - Desenvolvimento  de um Banco de Dados
+    - Pode usar o projeto da disciplina de Banco de Dados I como base 
+    - Criação de um Banco de Dados completo
+    - Pode usar UML com diagrama de casos de uso
+    - Primeira parte é a especificação do sistema
+    - Use o dicionario de dados sera usado como base para o Capitulo 2
+
+Proxima aula será criação de tabelas(04/09) e em seguida consultas.     
