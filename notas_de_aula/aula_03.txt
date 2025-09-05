@@ -1,0 +1,20 @@
+aula_03.txt
+20/08/2025
+
+- Criação de tabelas
+Primeiro criar o banco de dados com CREATE DATABASE depois utilizar USE DATABASE para usar o mesmo.
+
+-Para criar uma tabela utilizar o comando CREATE TABLE <nome_da_tabela>(
+    <identificador> <tipo> <nulidade = NOT NULL (caso atributo obrigatorio) 
+    )
+
+- Restrições:
+    - Primary key(PK)
+        - Uma tabela só pode ter uma chave primaria
+        - Todas as colunas PK devem ser não nulas
+        - O SQLServer caso vc n especifique ele faz ser não nula.
+        - Uma PK se comunica com uma FK pq o atributo que é passado é unico(atriuto identificador). - professor fez essa pergunta na aula -
+
+    - Unique(UN)
+    - Foreign Key(FK)
+    - Default(DF)

@@ -12,5 +12,19 @@
     - Pode usar UML com diagrama de casos de uso
     - Primeira parte é a especificação do sistema
     - Use o dicionario de dados sera usado como base para o Capitulo 2
+    - Primeira entrega é impressa
 
-Proxima aula será criação de tabelas(04/09) e em seguida consultas.     
+- Criaçao de tabelas
+    - Importante saber qual o banco está ativo no SQLServer
+    - 
+    - Tipos valores podem ser especificados ou não
+    - Nulidade (obrigatório ou nao)
+    - Nome de  
+    - Usar nomes sugestivos para seus atributos
+    - Boas praticas: nunca colocar espaços em branco em nomes de atributos e tabela.
+        - colocar um codigo para o tipo antes do atributos
+        - nunca armazenar mascaras no banco
+        - tipo bit legal para usar como flags.
+        - cuidado com o tipo image no banco fica mucho grande(armazena  o caminho)
+
+Proxima aula será criação de tabelas(04/09) e em seguida consultas.
