@@ -15,6 +15,19 @@ Primeiro criar o banco de dados com CREATE DATABASE depois utilizar USE DATABASE
         - O SQLServer caso vc n especifique ele faz ser não nula.
         - Uma PK se comunica com uma FK pq o atributo que é passado é unico(atriuto identificador). - professor fez essa pergunta na aula -
 
+        <nome> <tipo> not null
+		CONSTRAINT <PK_nome_tabela> PRIMARY KEY,
+
     - Unique(UN)
+        -Chave candidata
+
     - Foreign Key(FK)
+        - Chave estrangeira, o tipo da primaria e candidata que se relacionar tem que ser identica.
+
+        <NOME_ATRIBUTO> <TIPO> <NULIDADE>
+		CONSTRAINT <FK_TABELA_ATRIBUTO> FOREIGN KEY
+		REFERENCES <nome da tabela a ser referenciada>(atributo a ser refrencidado da tabela)
+    
     - Default(DF)
+        se for not null nunca vai ser referenciado
+        
