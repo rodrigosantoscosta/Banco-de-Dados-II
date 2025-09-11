@@ -1,0 +1,2 @@
+- Fazer o script de um dicionario de dados-
+*OBS: lembrar de fazer o sript de criação da database especificando caminho e tamanhos.
