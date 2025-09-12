@@ -1,2 +1,19 @@
 - Fazer o script de um dicionario de dados-
 *OBS: lembrar de fazer o sript de criação da database especificando caminho e tamanhos.
+
+12/09/2025
+interpretei a tabela itens como chaves primaria composta os atributos <pedido> e <produto>, vamos ver se é isso mesmo depois.
+
+
+create table TblItens(
+	pedido smallint not null,
+	produto smallint not null,
+		constraint pk_itens primary key(pedido,produto),
+		constraint fk_itens_pedido foreign key(pedido)
+			references TblPedido(codigo),
+		constraint fk_itens_produto foreign key(produto)
+			references TblProduto(codigo),
+	preco smallmoney not null,
+	quant smallint not null,
+	descont decimal(4,1) not null,
+)
