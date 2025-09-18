@@ -1,0 +1,3 @@
+-- 18/09/2025
+- excluir fks que referenciam a tabela B
+- 
